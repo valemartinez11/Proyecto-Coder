@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #282938;
+  background-color: #c9c9c9;
+}
+.main__header {
+  background-image: url(../img/Bannercinemasf.png);
+  padding: 20px;
+  background-color: #000000;
+  width: 100%;
+  display: inline-block;
+}
+a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 120%;
+  text-align: justify;
+  font-weight: 50;
+}
+.main__header__nav {
+  background-color: black; 
+  word-spacing: 15px;
+  text-align: end;
+  position: fixed;
+  display: inline-block;
+  width: 100%;
+  margin-left: -20px;
+  margin-top: -20px;
+  background-image: url(../img/Bannercinemasf.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 18px;
+}
+.estrenos_maintitle{
+  background-color: rgb(104, 17, 0);
+  color: #c9c9c9;
+  background-image: url(../img/Logoh1.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: start;
+  margin-top: 88px;
+  margin-bottom: 0px;
+  padding: 50px;
+  position: static;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  }
+.main__header__ul {
+  text-align: end;
+  margin: 30px;
+  padding: 17px; 
+}
+.main__header__ul li{
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #c9c9c9;
+  border-radius: 50px;
+}
+
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text__nope{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: large;
+}
+.text__spiderman{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: large;
+}
+.nosotros__main{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: 28px;
+  background-color: #c9c9c9;
+}
+.texto__servicios {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: justify;
+  font-size: large;
+  background-color: #c9c9c9;
+}
+.footer__main{
+  background-color: #080303;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: -85px;
+}
+.footer__img{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #080303;
+  color: #c9c9c9;
+  font-size: x-large;
+  text-align: right;
+  padding: 122px;
+  margin: 84px;
+  border: 0px;
+  position: relative;
+  top: -84px;
+  left: 83px;
+}
+.footer__img img{
+  padding: 55px;
+  margin: -167px;
+  border: 0px solid black;
+  position: absolute;
+  width: min-content;
+  height: min-content;
+  top: 167px;
+  left: -64px;
+  background-color: #080303;
+}
+.div__principal {
+  background-color: #c9c9c9;
+  text-align: justify;
+  text-align: start;
+}
+
+
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    font-size: 320%;
+}
+.contacto__form{
+  background-color: #c9c9c9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
