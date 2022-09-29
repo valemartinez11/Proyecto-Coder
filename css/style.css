@@ -15,6 +15,19 @@ a {
   font-size: 120%;
   font-weight: 50;
 }
+.body__grid {
+  display: grid;
+  grid-template-areas: 
+  "logoynav logoynav"
+  "carrousel carrousel"
+  "tituloestrenos publicidad"
+  "peli01 servicios"
+  "peli02 servicios";
+  grid-template-rows: 658px 600px 600px 600px 600px;
+  grid-template-columns: 1103px 902px;
+  gap: 40px;
+  padding: 30px;
+}
 .main__header__nav {
   background-color: #000000;
   text-align: right;
@@ -24,8 +37,8 @@ a {
   justify-content: flex-start;
   word-spacing: 13px;
   width: 100%;
-  margin-left: 0px;
-  margin-top: -78px;
+  margin-left: -30px;
+  margin-top: -30px;
   padding-bottom: 0px;
   padding-top: 0px;
   background-image: url(../img/Bannercinemasf.png);
@@ -33,6 +46,7 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 18px;
+  grid-area: logoynav;
 }
 
 .main__header__ul {
@@ -54,31 +68,17 @@ a {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: start;
-  margin-top: 78px;
-  margin-bottom: 40px;
-  padding-top: 38px;
-  padding-bottom: 50px;
-  margin-left: 0px;
-  margin-right: 0px;
-  padding-left: 0px;
-  padding-right: 0px;
   position: static;
   text-align: center;
   display: block;
   font-size: 30px;
-  height: 60px;
+  height: 133px;
   position: static;
+  grid-area: tituloestrenos;
 }
 
-.section__estrenos {
-  background-color: #c9c9c9;
-  display: grid;
-  grid-template-areas: 
-  "peli01 peli02";
-  grid-template-rows: 658px;
-  grid-template-columns: 600px 650px;
-  gap: 40px;
-  padding: 30px;
+.div__publicidad {
+  grid-area: publicidad;
 }
 
 .div__nope {
@@ -87,6 +87,33 @@ a {
 
 .div__spiderman {
   grid-area: peli02;
+}
+
+.div__servicios {
+  grid-area: servicios;
+}
+
+.section__estrenos {
+  background-color: #c9c9c9;
+  margin-top: 34px;
+  margin-bottom: -10px;
+  padding-top: 38px;
+  padding-bottom: 50px;
+  margin-left: 0px;
+  margin-right: -73px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.section__publiservicios {
+  margin-top: 74px;
+  margin-bottom: -10px;
+  padding-top: 38px;
+  padding-bottom: 50px;
+  margin-left: 0px;
+  margin-right: -73px;
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 h2 {
