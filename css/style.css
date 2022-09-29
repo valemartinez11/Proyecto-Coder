@@ -10,7 +10,7 @@ html {
 .main__header {
   background-image: url(../img/Bannercinemasf.png);
   padding: 20px;
-  background-color: #000000;
+  background-color: #c9c9c9;
   width: 100%;
   display: inline-block;
 }
@@ -22,7 +22,7 @@ a {
   font-weight: 50;
 }
 .main__header__nav {
-  background-color: black; 
+  background-color: #c9c9c9; 
   word-spacing: 15px;
   text-align: end;
   position: fixed;
@@ -36,6 +36,19 @@ a {
   background-size: contain;
   font-size: 18px;
 }
+
+.main__header__ul {
+  text-align: end;
+  margin: 30px;
+  padding: 17px; 
+}
+.main__header__ul li{
+  display: inline-block;
+  padding: 5px;
+  border: 2px solid #c9c9c9;
+  border-radius: 50px;
+}
+
 .estrenos_maintitle{
   background-color: rgb(104, 17, 0);
   color: #c9c9c9;
@@ -51,18 +64,6 @@ a {
   display: block;
   font-size: 30px;
   }
-.main__header__ul {
-  text-align: end;
-  margin: 30px;
-  padding: 17px; 
-}
-.main__header__ul li{
-  display: inline-block;
-  padding: 5px;
-  border: 2px solid #c9c9c9;
-  border-radius: 50px;
-}
-
 
 h2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
