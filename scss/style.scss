@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.descripcion_peliculas {
+  font-size: large;
+  color: black;
+  background-color: rgba(235, 233, 233, 0.5);
+}
+html {
+  font-size: larger;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif !important;
+  background-color: #c9c9c9;
+}
+nav.navbar {
+  background-color: #c9c9c9;
+}
+.navbarcinema {
+  display: flex;
+  flex-direction: row-reverse;
+  font-size: x-large;
+  background-color: #c9c9c9;
+}
+.logo_navbar {
+  display: flex;
+  flex-direction: initial;
+}
+.nuestros_estrenos {
+  background-color: rgb(180, 180, 180);
+}

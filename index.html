@@ -1,139 +1,298 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- CSS only -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Cinema SF</title>
-  </head>
-
-  <body>
-    <main class="main__grid">
-      <nav class="main__header__nav">
-        <ul class="main__header__ul">
-          <li>
-            <a href="./index.html">Inicio</a>
-          </li>
-          <li>
-            <a href="./cartelera.html">Cartelera</a>
-          </li>
-          <li>
-            <a href="./servicios.html">Servicios</a>
-          </li>
-          <li>
-            <a href="./nosotros.html">Nosotros</a>
-          </li>
-          <li>
-            <a href="./contacto.html">Contacto</a>
-          </li>
-        </ul>
+</head>
+  <!-- Inicio navbar -->
+<header class="conteiner-fluid ">
+    <div class="navbarcinema">
+      <img class="logo_navbar" src="img/CINEMASFLOGO1.png" alt="logodepagina">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid" class="navbarcinema">
+          <a class="navbar-brand" href="#">CINEMASF</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Cartelera</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Servicios
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="#">Atencion al Cliente</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Reserva de entradas</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-
-      <section class="section__estrenos">
-        <div class="titulo__estrenos tituloestrenos">
-          <h1>Estrenos</h1>
+</header>
+  <!-- Fin de navbar -->
+  <!-- Inicio de carousel con estrenos -->
+      <body>
+        <h1 class="p-3 mb-0 bg-dark bg-gradient text-white">
+          Nuestros estrenos:
+        </h1>
+        <div class="bd-example">
+          <div
+            id="carouselExampleCaptions"
+            class="carousel slide"
+            data-bs-ride="false"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleCaptions"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img
+                  src="img/spiderman.jpg"
+                  alt="posterspiderman"
+                  width="2080"
+                  height="500"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="descripcion_peliculas">
+                    <h3>Spiderman No Way Home</h3>
+                    <p>
+                      Por primera vez en la historia cinematográfica de
+                      Spider-Man, nuestro héroe, vecino y amigo es
+                      desenmascarado, y por tanto, ya no es capaz de separar su
+                      vida normal de los enormes riesgos que conlleva ser un
+                      superhéroe. Cuando pide ayuda al Doctor Strange, los
+                      riesgos pasan a ser aún más peligrosos, obligándole a
+                      descubrir lo que realmente significa ser él.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/nope.jpg"
+                  alt="posternope"
+                  width="2080"
+                  height="500"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="descripcion_peliculas">
+                    <h3>Nope!</h3>
+                    <p>
+                      Nope de Jordan Peele cuenta la historia de unos forasteros
+                      en Hollywood. Los hermanos OJ y Emerald Haywood acaban de
+                      perder a su padre en circunstancias inexplicables y tienen
+                      que hacerse cargo de su negocio de renta de caballos
+                      domesticados para el cine.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="img/pulp fiction.jpg"
+                  alt="posternope"
+                  width="2080"
+                  height="500"
+                />
+                <div class="carousel-caption d-none d-md-block">
+                  <div class="descripcion_peliculas">
+                    <h3>Pulp Fiction</h3>
+                    <p>
+                      Pulp Fiction está narrada en un orden no cronológico y
+                      cuenta tres historias entrelazadas. La primera de ellas
+                      sigue al asesino a sueldo Vincent Vega mientras se ocupa
+                      de cuidar de Mia Wallace. El boxeador Butch Coolidge es el
+                      protagonista de la segunda y, finalmente, la tercera
+                      concierne al compañero de Vincent, Jules Winnfield.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
         </div>
-        <br />
-        <div class="div__nope">
-          <img
-            src="./img/Nope.png"
-            alt="Poster pelicula NOPE"
-            width="300"
-            height="300"
-          />
-          <h2>Nope/Nop</h2>
-          <p class="text__nope">
-            En la estela del éxito de Déjame salir y de Nosotros, dos películas
-            que sacudieron y redefinieron el género de terror, Jordan Peele
-            quería ampliar su lienzo cinematográfico y, de paso, enfrentarse a
-            un nuevo reto en su carrera de cineasta: la película del verano.
-            “NOP es la historia de mayor envergadura que he contado hasta
-            ahora”, dice el director. “Desde un punto de vista meramente
-            cinematográfico, todo el proceso ha sido una auténtica aventura.
-            Todos los departamentos se han arriesgado y entregado al máximo.
-            Empecé a escribir un guion para una película sin saber si
-            conseguiría rodarla. Luego reuní a un equipo para que me ayudara a
-            sacarla adelante”.
-          </p>
+        <script src="https://cdn.jsdelivr.net/npm/@docsearch/js@3"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@stackblitz/sdk@1/bundles/sdk.umd.js"></script>
+        <script src="/docs/5.2/assets/js/docs.min.js"></script>
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+          crossorigin="anonymous"
+        ></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      </body>
+      <!-- Fin de carousel -->
+<!-- Inicio cartelera -->
+<h1 class="p-3 mb-0 bg-dark bg-gradient text-white">Cartelera</h1>
+<div class="conteiner overflow-hidden text-center justify-content-sm-evenly" style="background-color: #c9c9c9;">
+  <div class="row justify-content-sm-between">
+    <div class="col-sm-4">
+      <div class="card text-bg-dark mb-3" style="width: 20rem;">
+      <img src="img/spidermanposter.jpg" class="card-img-top" alt="spidermancard" width="300px" height="300px">
+        <div class="card-body">
+        <h5 class="card-title">Spider-Man No Way Home</h5>
+        <p class="card-text">Por primera vez en la historia cinematográfica de Spider-Man, nuestro héroe, vecino y amigo es desenmascarado, y por tanto, ya no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un superhéroe.</p>
+        <a href="#" class="btn btn-primary">Reservar entrada</a>
         </div>
-        <div class="div__spiderman">
-          <img
-            src="./img/spiderman.jpg"
-            alt="poster spiderman no way home"
-            width="300"
-            height="300"
-          />
-          <h2>Spiderman No Way Home</h2>
-          <p class="text__spiderman">
-            Por primera vez en la historia cinematográfica de Spider-Man,
-            nuestro héroe, vecino y amigo es desenmascarado, y por tanto, ya no
-            es capaz de separar su vida normal de los enormes riesgos que
-            conlleva ser un superhéroe. Cuando pide ayuda al Doctor Strange, los
-            riesgos pasan a ser aún más peligrosos, obligándole a descubrir lo
-            que realmente significa ser él. Secuela de 'Spider-Man: Far From
-            Home'.
-          </p>
-        </div>
-      </section>
-      <section class="section__publiservicios">
-        <div class="div__publicidad">
-          <h2>Publicidad</h2>
-          <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique
-            a debitis repellendus, nostrum atque culpa, magni repudiandae
-            molestiae voluptatum, voluptate maiores voluptatibus fuga temporibus
-            ratione quia ducimus consequatur corrupti eos.
-          </p>
-        </div>
-        <div class="div__servicios">
-          <h2>Servicios</h2>
-          <p class="texto__servicios">
-            Descripcion de los servicios que se ofrecen en el cine:
-            <br />
-            <br />
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, earum
-            a officia amet harum labore sunt quae aut libero perspiciatis
-            deleniti cupiditate odit delectus architecto nostrum cumque
-            asperiores consequuntur temporibus, voluptatum repellat blanditiis
-            qui. Ipsa corrupti illum voluptatum, voluptatem ea sequi
-            necessitatibus! Neque odit saepe repellendus praesentium quaerat
-            deserunt quibusdam! Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Eaque voluptas ducimus atque quod tempore quam
-            animi dignissimos porro dolorum repellendus in facilis neque
-            pariatur explicabo doloribus at culpa, velit, aliquid corrupti, modi
-            saepe! Amet possimus voluptate explicabo. Omnis laboriosam sapiente
-            quisquam quidem eius provident perferendis vero, autem itaque quod
-            tempore. Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-            Eaque voluptas ducimus atque quod tempore quam animi dignissimos
-            porro dolorum repellendus in facilis neque pariatur explicabo
-            doloribus at culpa, velit, aliquid corrupti, modi saepe! Amet
-            possimus voluptate explicabo. Omnis laboriosam sapiente quisquam
-            quidem eius provident perferendis vero, autem itaque quod tempore.
-          </p>
-        </div>
-      </section>
-      <br />
-    </main>
-  </body>
-  <footer class="main__footer">
-    <div class="img__footer">
-      <p>
-        Aqui va el contacto y las redes sociales: Lorem ipsum dolor sit amet
-        consectetur adipisicing elit. Provident rerum assumenda modi beatae,
-        minima suscipit nisi magni facilis error similique praesentium
-        repellendus ipsam quas accusamus. Laboriosam earum assumenda mollitia.
-        Rem facilis, beatae cumque alias minus blanditiis doloremque cupiditate
-        sit dicta?
-      </p>
-      <img src="./img/CINEMASFLOGO1.png" alt="Logo de la pagina" />
+      </div>
     </div>
-  </footer>
+    <div class="col-sm-4">
+      <div class="card text-bg-dark mb-3" style="width: 20rem;" >
+      <img src="img/posternope.jpeg" class="card-img-top" alt="nopecard" width="300px" height="300px">
+        <div class="card-body">
+        <h5 class="card-title">Nope!</h5>
+        <p class="card-text">Nope de Jordan Peele cuenta la historia de unos forasteros en Hollywood. Los hermanos OJ y Emerald Haywood acaban de perder a su padre en circunstancias inexplicables y tienen que hacerse cargo de su negocio de renta de caballos domesticados para el cine.</p>
+        <a href="#" class="btn btn-primary">Reservar entrada</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card text-bg-dark mb-3" style="width: 20rem;">
+      <img src="img/pulpposter.jpg" class="card-img-top" alt="pulpcard" width="300px" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">Pulp fiction</h5>
+        <p class="card-text">Pulp Fiction cuenta la vida de un boxeador, dos sicarios, la esposa de un gánster y dos bandidos se entrelaza en una historia de violencia y redención. </p>
+        <a href="#" class="btn btn-primary">Reservar entrada</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Segunda fila -->
+<div class="conteiner overflow-hidden text-center justify-content-sm-evenly" style="background-color: #c9c9c9;">
+  <div class="row justify-content-sm-evenly">
+    <div class="col-sm-4">
+      <div class="card text-bg-dark mb-3" style="width: 20rem;">
+      <img src="img/spidermanposter.jpg" class="card-img-top" alt="spidermancard" width="300px" height="300px">
+        <div class="card-body">
+        <h5 class="card-title">Spider-Man No Way Home</h5>
+        <p class="card-text">Por primera vez en la historia cinematográfica de Spider-Man, nuestro héroe, vecino y amigo es desenmascarado, y por tanto, ya no es capaz de separar su vida normal de los enormes riesgos que conlleva ser un superhéroe.</p>
+        <a href="#" class="btn btn-primary">Reservar entrada</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+      <div class="card text-bg-dark mb-3" style="width: 20rem;" >
+      <img src="img/posternope.jpeg" class="card-img-top" alt="nopecard" width="300px" height="300px">
+        <div class="card-body">
+        <h5 class="card-title">Nope!</h5>
+        <p class="card-text">Nope de Jordan Peele cuenta la historia de unos forasteros en Hollywood. Los hermanos OJ y Emerald Haywood acaban de perder a su padre en circunstancias inexplicables y tienen que hacerse cargo de su negocio de renta de caballos domesticados para el cine.</p>
+        <a href="#" class="btn btn-primary">Reservar entrada</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-4">
+    <div class="card text-bg-dark mb-3" style="width: 20rem;">
+      <img src="img/pulpposter.jpg" class="card-img-top" alt="pulpcard" width="300px" height="300px">
+      <div class="card-body">
+        <h5 class="card-title">Pulp fiction</h5>
+        <p class="card-text">Pulp Fiction cuenta la vida de un boxeador, dos sicarios, la esposa de un gánster y dos bandidos se entrelaza en una historia de violencia y redención. </p>
+        <a href="#" class="btn btn-primary">Reservar entrada</a>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+<!-- Fin de cartelera -->
+<!-- Inicio Footer -->
+<footer class="footer__main">
+  <div class="footer__img">
+    <p>
+      CinemaSF <img src="img/Instagram-Icon.png" alt="" height="60px">
+    </p>
+    <p>
+      +5493424304609 <img src="img/wspicon.png" alt="" height="60px">
+    </p>
+    <p>
+      Sarmiento 3456-Santa Fe capital <img src="img/locationicon.png" alt="" height="60px">
+    </p>
+    <img src="./img/CINEMASFLOGO1.png" alt="Logo de la pagina" />
+  </div>
+</footer>
+          <!-- Fin de Footer -->
 </html>
